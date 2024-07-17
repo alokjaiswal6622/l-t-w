@@ -1,0 +1,40 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #ffe6e6;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+}
+
+.content {
+    text-align: center;
+}
+
+h1 {
+    color: #ff6666;
+    margin-bottom: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+}
+
+#yesButton {
+    background-color: #66ff66;
+}
+
+#noButton {
+    background-color: #ff6666;
+}
+
+#emojiContainer {
+    margin-top: 20px;
+    font-size: 30px;
+}
